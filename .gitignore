@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# builds
+frontend/dist/
+backend/dist/
+**/dist/
+
+# local env / secrets
+backend/.env
+.env
+
+# local sqlite db
+backend/prisma/dev.db
+backend/dev.db
+**/*.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
